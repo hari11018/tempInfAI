@@ -1,7 +1,7 @@
 // material-ui
 /* eslint-disable */
 import { useTheme } from '@mui/material/styles';
-import logo from "./logo.jpeg"
+import influenceAILogo from "./influenceAI.jpeg"
 import { Typography } from '@mui/material';
 
 /**
@@ -62,7 +62,7 @@ const Logo = () => {
         //         fill={theme.palette.primary.main}
         //     />
         // </svg>
-        <img src={logo} alt="InfluenceAI" width="35" />
+        <img src={influenceAILogo} alt="InfluenceAI" width="35" />
     );
 };
 
