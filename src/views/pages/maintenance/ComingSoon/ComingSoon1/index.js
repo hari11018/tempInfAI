@@ -22,8 +22,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import BookIcon from '@mui/icons-material/Book';
 
-import logo from 'assets/images/logo.svg';
-import logoDark from 'assets/images/logo-dark.svg';
+import logoDark from 'assets/images/influenceAI.jpeg';
 import companyLogo from 'assets/images/maintenance/img-ct-logo.png';
 import imageBackground from 'assets/images/maintenance/img-soon-bg.svg';
 import imageGrid from 'assets/images/maintenance/img-soon-bg-grid.svg';
@@ -167,7 +166,7 @@ const ComingSoon1 = () => {
                     />
                     {theme.palette.mode === 'light' && (
                         <img
-                            src={logo}
+                            src={logoDark}
                             alt="Berry"
                             width="100"
                             style={{ position: rtlLayout ? 'relative' : 'initial', top: rtlLayout ? 30 : 'initial' }}
