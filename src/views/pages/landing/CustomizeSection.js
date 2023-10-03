@@ -10,8 +10,8 @@ import AnimateButton from 'ui-component/extended/AnimateButton';
 import { IconCircleCheck } from '@tabler/icons';
 import LayersTwoToneIcon from '@mui/icons-material/LayersTwoTone';
 
-import LayerLeft from './brand.jpg';
-import LayerRight from './influencer.avif';
+import LayerLeft from './images/brand.jpg';
+import LayerRight from './images/influencer.avif';
 
 // ==============================|| LANDING - CUSTOMIZE ||============================== //
 
