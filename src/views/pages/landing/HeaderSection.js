@@ -100,7 +100,7 @@ const HeaderSection = () => {
                             >
                                 <Stack spacing={1}>
                                     <Typography textAlign={{ xs: 'center', md: 'left' }} variant="h1" sx={headerSX}>
-                                        Elevate your influence with
+                                        Elevate your influence
                                     </Typography>
 
                                     <Typography textAlign={{ xs: 'center', md: 'left'}} color="#009688" variant="h1" sx={headerSX}>
