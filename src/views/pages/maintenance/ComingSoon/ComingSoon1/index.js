@@ -22,7 +22,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import BookIcon from '@mui/icons-material/Book';
 
-import logoDark from 'assets/images/influenceAI.jpeg';
+import logoDark from 'assets/images/influenceAI.jpg';
 import companyLogo from 'assets/images/maintenance/img-ct-logo.png';
 import imageBackground from 'assets/images/maintenance/img-soon-bg.svg';
 import imageGrid from 'assets/images/maintenance/img-soon-bg-grid.svg';

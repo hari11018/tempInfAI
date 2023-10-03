@@ -1,7 +1,7 @@
 // material-ui
 /* eslint-disable */
 import { useTheme } from '@mui/material/styles';
-import influenceAILogo from "assets/images/influenceAI.jpeg"
+import influenceAILogo from "assets/images/influenceAI.jpg"
 import { Typography } from '@mui/material';
 
 /**

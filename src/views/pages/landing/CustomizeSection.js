@@ -11,7 +11,7 @@ import { IconCircleCheck } from '@tabler/icons';
 import LayersTwoToneIcon from '@mui/icons-material/LayersTwoTone';
 
 import LayerLeft from './images/brand.jpg';
-import LayerRight from './images/influencer.avif';
+import LayerRight from './images/influencer.jpg';
 
 // ==============================|| LANDING - CUSTOMIZE ||============================== //
 
