@@ -1,3 +1,6 @@
+// material-ui
+/* eslint-disable */
+
 import { lazy } from 'react';
 
 // project imports
@@ -5,6 +8,8 @@ import GuestGuard from 'utils/route-guard/GuestGuard';
 import MinimalLayout from 'layout/MinimalLayout';
 import NavMotion from 'layout/NavMotion';
 import Loadable from 'ui-component/Loadable';
+import TermsAndConditions from 'ui-component/TermsAndConditions';
+import Privacy from 'ui-component/Privacy';
 
 // login routing
 const AuthLogin = Loadable(lazy(() => import('views/pages/authentication/authentication3/Login3')));
@@ -34,7 +39,15 @@ const LoginRoutes = {
         {
             path: '/forgot',
             element: <AuthForgotPassword />
-        }
+        },
+            {
+      path: '/terms-and-conditions',
+      element: <TermsAndConditions />
+    },
+    {
+      path: '/privacy-policy',
+      element: <Privacy />
+    }
     ]
 };
 

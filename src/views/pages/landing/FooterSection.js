@@ -178,30 +178,29 @@ const FooterSection = () => {
       justifyContent="space-between"
       spacing={{ xs: 1.5, sm: 1, md: 3 }}
     >
-      <Stack direction="row" alignItems="center" spacing={2}>
-        <Typography color="text.secondary">
-          © InfluenceAI is managed by{' '}
-          <Link href="" target="_blank" underline="hover">
-            Citta-Marketing-Agency
-          </Link>
-        </Typography>
-        <Link
-          href="https://docs.google.com/document/d/14xatNfA1shOnMiP45EZg02vezqhQbSb3v4sJTmY7zCc/edit?tab=t.0#heading=h.9owyqccpmkk"
-          target="_blank"
-          underline="hover"
-          color="text.secondary"
-        >
-          Terms & Conditions
-        </Link>
-        <Link
-          href="https://docs.google.com/document/d/1P-ivc6htNROzjYMSSKyCFpBxG80VpIdxHdUqzwerDN8/edit?tab=t.0#heading=h.l4acmuqbn4yq"
-          target="_blank"
-          underline="hover"
-          color="text.secondary"
-        >
-          Privacy Policy
-        </Link>
-      </Stack>
+<Stack direction="row" alignItems="center" spacing={2}>
+  <Typography color="text.secondary">
+    © InfluenceAI is managed by{' '}
+    <Link href="" target="_blank" underline="hover">
+      Citta-Marketing-Agency
+    </Link>
+  </Typography>
+  <Link
+    href="/terms-and-conditions"
+    underline="hover"
+    color="text.secondary"
+  >
+    Terms & Conditions
+  </Link>
+  <Link
+    href="/privacy-policy"
+    underline="hover"
+    color="text.secondary"
+  >
+    Privacy Policy
+  </Link>
+</Stack>
+
 
       <Stack direction="row" alignItems="center" spacing={{ xs: 3, sm: 1.5, md: 2 }}>
         <IconButton size="small" component={Link} href="" target="_blank" aria-label="blog">
