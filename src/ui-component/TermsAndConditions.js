@@ -18,7 +18,7 @@ const TermsAndConditions = () => {
           p: 1,
           border: '1px solid #ccc',
           borderRadius: '8px',
-          backgroundColor: '#f9f9f9'
+
         }}
       >
         {`
